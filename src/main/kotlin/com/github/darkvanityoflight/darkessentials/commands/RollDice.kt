@@ -29,14 +29,15 @@ class RollDice : CommandExecutor {
             return false
         }
 
+        val num : Int
         try{
-        val num = args[0].toInt()
+            num = args[0].toInt()
         } catch (exception : NumberFormatException){
             sender.sendMessage("${args[0]} is not a number you idiot")
             return false
         }
 
-        val number : Int = (0 .. args[0]as Int).random()
+        val number : Int = (0 .. num).random()
         channel.sendMessage("rolled $number", sender, "{player_name} {message}")
         return true
 
