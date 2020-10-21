@@ -8,7 +8,7 @@ plugins {
 
 group 'com.github.darkvanityoflight'
 version '1.0-SNAPSHOT'
-description 'Some essentials that work together with the DarkMod collection'
+description 'Some essentials that work together with the Recrafted Plugin collection'
 
 repositories {
     maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
@@ -27,17 +27,16 @@ dependencies {
 
 dependencies {
     compileOnly spigotApi()
-    compileOnly 'com.github.darkvanityoflight:DarkModCore:1.+'
+    compileOnly 'com.github.darkvanityoflight:RecraftedCore:2.+'
     compileOnly 'com.github.darkvanityoflight:ChatPlugin:1.+'
 }
 
 bukkit {
-    version = "1.16.3"
 
     meta {
-        name = "DarkEssentials"
-        description = 'Some essentials that work together with the DarkMod collection'
-        main = "com.github.darkvanityoflight.darkessentials.DarkEssentials"
+        name = "RecraftedEssentials"
+        description = 'Some essentials that work together with the Recrafted plugin collection'
+        main = "com.github.darkvanityoflight.recraftedessentials.RecraftedEssentials"
         version = this.version
         authors = ["DarkVanityOfLight"]
     }

@@ -1,4 +1,4 @@
-package com.github.darkvanityoflight.darkessentials.commands
+package com.github.darkvanityoflight.recraftedessentials.commands
 
 
 import org.bukkit.command.Command
