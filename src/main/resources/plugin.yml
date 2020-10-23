@@ -1,4 +1,4 @@
-depend: [DarkModCore, ChatPlugin]
+depend: [RecraftedCore, ChatPlugin]
 commands:
   rolladice:
     description: "Rolle a die and send the result in the current channel"
